@@ -53,10 +53,32 @@
  }
  
  body {
-     background: url(/image/background1.jpg);
-     background-attachment: fixed;
+     /* background: url(/image/background1.jpg); */
+     /* background-attachment: fixed;
      background-position: center;
-     overflow-x: hidden;
+     overflow-x: hidden; */
+     margin-top: 7rem;
+     background: url(../image/background3.jpeg) no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ section{
+    padding: 3rem 9%;
+ }
+ .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    border: var(--border);
+    background: no-repeat;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+ }
+ .btn:hover{
+    /* color:var(--black); */
+    background:#eacf4f;
  }
  
  .header {
@@ -142,6 +164,80 @@ img{
     transform: rotate(180deg);
 }
 
+.home{
+    /* margin-top: 7rem;
+    background: url(../image/background3.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.home .content{
+    max-width: 70rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.home .content img{
+    width:82.1%;
+    /* mix-blend-mode: multiply; */
+    border: 0;
+    border-radius: 50%;
+}
+.home .content h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.home .content p {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: var(--light-color);
+    padding: 2rem 0;
+}
+/* -------------------------------------------- */
+.service {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 2rem;
+}
+
+.service .box {
+    text-align: center;
+    padding: 2rem;
+}
+
+.service .box i {
+    height: 7rem;
+    width: 7rem;
+    line-height: 7rem;
+    font-size: 2rem;
+    color: black;
+    background: yellow;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.service .box h3 {
+    padding: 1rem 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.service .box p {
+    font-size: 1.5rem;
+    line-height: 2;
+    /* color: var(--light-color); */
+    color: white;
+}
+
+/* -------------------------------------------- */
+
+
+
+
+
+
+
 
 
 
@@ -154,6 +250,10 @@ img{
 @media (max-width: 1200px) {
     .header {
         padding: 3rem;
+    }
+    
+    section{
+        padding: 3rem 9%;
     }
 }
 
