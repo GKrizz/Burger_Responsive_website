@@ -61,6 +61,7 @@
      background: url(../image/background3.jpeg) no-repeat;
      background-size: cover;
      background-position: center;
+
  }
 
  section{
@@ -231,9 +232,61 @@ img{
 }
 
 /* -------------------------------------------- */
+.heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
+.heading h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-top: 1rem;
+}
 
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 2rem;
+}
 
+.menu .box {
+    text-align: center;
+}
+
+.menu .box:hover img {
+    transform: translateY(1rem);
+}
+
+.menu .box img {
+    height: 12rem;
+
+}
+
+.menu .box .content {
+    padding: 1rem 0;
+}
+
+.menu .box .content .stars {
+    margin-bottom: 2rem;
+}
+
+.menu .box .content .stars i {
+    font-size: 1.7rem;
+    color: yellow;
+}
+
+.menu .box .content h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.menu .box .content .price {
+    font-size: 2rem;
+    line-height: 2;
+    color: var(--light-color);
+}
 
 
 
