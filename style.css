@@ -65,7 +65,7 @@
      left: 0;
      right: 0;
      z-index: 1000;
-     /* background-color: black; */
+     background-color: black;
      padding: 3rem 9%;
      display: flex;
      align-items: center;
@@ -99,3 +99,45 @@
      color: var(--yellow);
  }
  
+.space{
+    display: inline-block;
+    width: 16rem;
+}
+.logo{
+    position: absolute;
+    top: 4rem;
+    /* left: 48.5%; */
+    left: 51%;
+    transform: translatey(-50%);
+}
+img{
+    width: 9rem;
+}
+.search-form{
+    height: 7rem;
+    padding: 0 2rem;
+    border-top:var(--border);
+    display : flex;
+    align-items: center ;
+    background: black;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.search-form.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.search-form input{
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    /* color: $white; */
+    color: white;
+}
+.fa-times{
+    transform: rotate(180deg);
+}
