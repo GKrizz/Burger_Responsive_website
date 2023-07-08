@@ -347,7 +347,77 @@ img{
 }
 
 /* ------------------------- */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
 
+.contact .map {
+    flex: 1 1 40rem;
+}
+
+.contact .form {
+    flex: 1 1 40rem;
+}
+
+.contact .form .icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contact .form .icons {
+    flex: 1 1 17rem;
+    text-align: center;
+}
+
+.contact .form .icons i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    background: yellow;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact .form .icons h3 {
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.contact .form .icons p {
+    font-size: 1.5rem;
+}
+
+.contact  form {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.contact  form .box {
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    /* color: rgb(252, 252, 252); */
+    /* background: white; */
+    color: #000;
+    border:var(--border);
+    text-transform: none;
+    width: 100%;
+    margin: 7rem 0;
+}
+
+.contact form .box:focus {
+    border-color: yellow;
+}
+
+.contact  form textarea {
+    height: 15rem;
+    resize: none;
+}
 
 /* ------------------------- */
 
