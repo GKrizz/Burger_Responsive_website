@@ -288,7 +288,68 @@ img{
     color: var(--light-color);
 }
 
+/* ------------------------- */
 
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image {
+    flex: 1 1 40rem;
+}
+
+.about .image img {
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 5%;
+    
+}
+
+.about .content {
+    flex: 1 1 40rem;
+    margin-left: 10rem;
+}
+
+.about .content .title {
+    font-size: 2.5rem;
+}
+
+.about .content p {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    /* color: whitesmoke; */
+}
+
+.about .content .icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.about .content .icons h3 {
+    flex: 1 1 16rem;
+    font-size: 1.5rem;
+    
+}
+
+.about .content .icons h3 i {
+    padding-right: 0.5rem;
+    color: yellow;
+}
+.about .content .icons h3 i b{
+    color:orange;
+    margin-left: 2rem;
+}
+
+/* ------------------------- */
+
+
+/* ------------------------- */
 
 
 
