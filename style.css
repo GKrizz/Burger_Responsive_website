@@ -53,15 +53,16 @@
  }
  
  body {
-     /* background: url(/image/background1.jpg); */
-     /* background-attachment: fixed;
+     background: url(/image/background3.jpeg); 
+     background-attachment: fixed;
      background-position: center;
-     overflow-x: hidden; */
-     margin-top: 7rem;
+     overflow-x: hidden;
+     background-size: cover;
+     margin-top: 7rem
+     /* margin-top: 7rem;
      background: url(../image/background3.jpeg) no-repeat;
      background-size: cover;
-     background-position: center;
-
+     background-position: center; */
  }
 
  section{
@@ -130,7 +131,7 @@
     position: absolute;
     top: 4rem;
     /* left: 48.5%; */
-    left: 45%;
+    left: 48%;
     transform: translatey(-50%);
 }
 img{
