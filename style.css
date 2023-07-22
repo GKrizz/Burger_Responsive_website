@@ -53,7 +53,7 @@
  }
  
  body {
-     background: url(../image/background.jpg); 
+     background-color : brown;
      background-attachment: fixed;
      background-position: center;
      overflow-x: hidden;
