@@ -53,12 +53,16 @@
  }
  
  body {
-     background: url(/image/background.jpg); 
+     background: url(../image/background.jpg); 
      background-attachment: fixed;
      background-position: center;
      overflow-x: hidden;
      background-size: cover;
-     margin-top: 7rem
+     margin-top: 7rem;
+       /* margin-top: 7rem;
+     background: url(../image/background3.jpeg) no-repeat;
+     background-size: cover;
+     background-position: center; */
 
  }
 
